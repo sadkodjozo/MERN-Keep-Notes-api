@@ -1,0 +1,14 @@
+GET http://localhost:3001/notes
+
+
+### 
+POST http://localhost:3001/note/new
+Content-Type: application/json
+
+{
+        "title": "Second Note",
+        "content": "App testing"
+        
+}
+###
+DELETE  http://localhost:3001/notes/delete/648636d654e7c827b33406f3
